@@ -1,6 +1,19 @@
 # this file contains the utility functions used for calculations and UI
 import plotly.graph_objects as go
 
+plotly_config = {
+    "displayModeBar": True,
+    "scrollZoom": False,      # disables zoom on scroll/touch
+    "doubleClick": "reset",   # double tap resets axes
+    "displaylogo": False,
+    "modeBarButtonsToRemove": [
+        "zoom2d", "pan2d", "select2d", "lasso2d",
+        "zoomIn2d", "zoomOut2d", "autoScale2d", "resetScale2d"
+    ],
+    "staticPlot": False       # allows interaction, but disables zoom/pan
+}
+
+
 # -------------------------------
 # ui formatting utilities
 # -------------------------------

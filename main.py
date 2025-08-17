@@ -60,7 +60,7 @@ if st.button(labels["calculate"]):
             hover_labels=[labels["interest"], labels["principal"]],
             month_to_year_month_func=month_to_year_month
         )
-        st.plotly_chart(paymentCompFig, use_container_width=True)
+        st.plotly_chart(paymentCompFig, use_container_width=True, config=plotly_config)
 
         # --- Plot Remaining Debt (Interactive) ---
         remDebtFig = plot_line_chart(
@@ -74,7 +74,7 @@ if st.button(labels["calculate"]):
             hover_labels=[labels["remaining_debt"]],
             month_to_year_month_func=month_to_year_month
         )
-        st.plotly_chart(remDebtFig, use_container_width=True)
+        st.plotly_chart(remDebtFig, use_container_width=True, config=plotly_config)
 
         # csv table
         st.write(f"### {labels['repayment_schedule']}")
