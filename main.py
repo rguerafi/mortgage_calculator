@@ -79,3 +79,10 @@ if st.button(labels["calculate"]):
         # csv table
         st.write(f"### {labels['repayment_schedule']}")
         st.dataframe(df_translated, hide_index=True)
+
+        
+# Add this at the end of your main.py file, after all other Streamlit components
+st.markdown(f"""
+---
+{labels["disclaimer"]}
+""")

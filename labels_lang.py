@@ -40,6 +40,12 @@ label_dict = {
         "ERR_downpayment_oorhi": "❌ Down payment must be less than the total cost",
         "ERR_interest_oorlo": "❌ Interest rate must be greater than 0",
         "ERR_tilgung_oorlo": "❌ Initial Tilgung must be greater than 0",
+         "disclaimer": (
+            "**Disclaimer:**  \n"
+            "This mortgage calculator is a hobby project and is provided for informational and educational purposes only.  \n"
+            "It should not be used as a substitute for professional financial advice.  \n"
+            "Please consult a qualified financial advisor before making any financial decisions."
+        )
     },
     "de": {
         "title": "🏠 Hypothekenrechner",
@@ -75,5 +81,11 @@ label_dict = {
         "ERR_downpayment_oorhi": "❌ Eigenkapital muss kleiner als die Gesamtkosten sein",
         "ERR_interest_oorlo": "❌ Zinssatz muss größer als 0 sein",
         "ERR_tilgung_oorlo": "❌ Tilgung muss größer als 0 sein",
+        "disclaimer": (
+            "**Haftungsausschluss:**  \n"
+            "Dieser Hypothekenrechner ist ein Hobbyprojekt und dient nur zu Informations- und Bildungszwecken.  \n"
+            "Er sollte nicht als Ersatz für professionelle Finanzberatung verwendet werden.  \n"
+            "Bitte konsultieren Sie einen qualifizierten Finanzberater, bevor Sie finanzielle Entscheidungen treffen."
+        ),
     }
 }
