@@ -22,7 +22,7 @@ This tool helps you estimate monthly payments, remaining debt, and provides a fu
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/rgueraf/mortgage_calculator.git
-    cd your-repo
+    cd mortgage_calculator
     ```
 
 2. **Install dependencies:**
