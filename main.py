@@ -1,7 +1,7 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 from labels_lang import label_dict
 from ui_utils import *
+from calc_utils import *
 
 # -------------------------------
 # Language Selector
