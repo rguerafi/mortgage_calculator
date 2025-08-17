@@ -38,7 +38,9 @@ This tool helps you estimate monthly payments, remaining debt, and provides a fu
 ---
 
 ## Screenshots
-
+<img width="891" height="668" alt="image" src="https://github.com/user-attachments/assets/e8c6e48c-3945-4279-8264-cf8e2ffbd79e" />
+<img width="769" height="596" alt="image" src="https://github.com/user-attachments/assets/287d1164-07f2-4218-b5f3-572ac7f5fda1" />
+<img width="811" height="520" alt="image" src="https://github.com/user-attachments/assets/732dcf20-48f3-455d-abd2-89e77cacd822" />
 
 ---
 
